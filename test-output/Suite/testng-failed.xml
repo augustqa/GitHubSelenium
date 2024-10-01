@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Social"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testngframework.TestNG_9_TestCases_Groups">
+        <methods>
+          <include name="twitter"/>
+          <include name="gmail"/>
+          <include name="facebook"/>
+        </methods>
+      </class> <!-- testngframework.TestNG_9_TestCases_Groups -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
