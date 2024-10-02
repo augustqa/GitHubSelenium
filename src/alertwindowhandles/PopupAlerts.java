@@ -17,7 +17,7 @@ public class PopupAlerts {
 		Thread.sleep(4000);
 
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
-		jse.executeScript("scroll(0, 1500)");
+		jse.executeScript("scroll(0, 500)");
 
 		Thread.sleep(4000);
 
