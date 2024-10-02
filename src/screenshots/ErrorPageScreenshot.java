@@ -25,7 +25,7 @@ public void BugScreenshot() throws Exception {
 	@Test
 	public void googlesearch() throws Exception {
 		driver.get("https://www.google.com/");		
-		Thread.sleep(2000);
+		Thread.sleep(20000);
 		try 
 		{
 		driver.findElement(By.name("q")).sendKeys("Selenium with Java");
