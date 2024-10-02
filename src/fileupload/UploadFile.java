@@ -14,7 +14,7 @@ public class UploadFile {
 		driver.get("https://www.gangaaram-tech.com/registration/");
 		Thread.sleep(55000);
 		driver.findElement(By.xpath("//textarea[@id='textarea-23104650921']")).sendKeys("Hello Text Message");
-		Thread.sleep(2000);
+		Thread.sleep(44000);
 		driver.findElement(By.xpath("//*[@id=\"field-ioa3T81OSsEXwhP\"]")).sendKeys("C:\\Users\\kpuru\\OneDrive\\Documents\\Book2.xlsx");
 		
 		driver.findElement(By.xpath("")).submit();
