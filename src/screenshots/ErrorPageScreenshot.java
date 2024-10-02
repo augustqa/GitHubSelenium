@@ -19,13 +19,13 @@ WebDriver driver;
 public void BugScreenshot() throws Exception {	
 	
 	File f = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	FileUtils.copyFile(f, new File("C:\\Users\\techlearn\\OneDrive\\Documents\\Images\\Screenshots\\ErrorPageScreenshot.png"));
+	FileUtils.copyFile(f, new File("C:\\Users\\kpuru\\OneDrive\\Documents\\Images\\Screenshots\\ErrorPageScreenshot.png"));
 }
 		
 	@Test
 	public void googlesearch() throws Exception {
 		driver.get("https://www.google.com/");		
-		Thread.sleep(2000);
+		
 		try 
 		{
 		driver.findElement(By.name("q")).sendKeys("Selenium with Java");
