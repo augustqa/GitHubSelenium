@@ -33,7 +33,7 @@ public class DropdownValues {
 	@BeforeTest
 	public void beforeTest() {
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().minimize();
 	}
 
 }
