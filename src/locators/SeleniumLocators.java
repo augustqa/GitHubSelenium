@@ -57,7 +57,7 @@ class SeleniumLocators {
 	@Disabled
 	@Test
 	void linktextpartiallinktext() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(20000);
 		driver.get("http://hyderabadreport.com/");
 		Thread.sleep(2000);
 		driver.findElement(By.linkText("Telangana")).click();
