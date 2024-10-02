@@ -26,8 +26,8 @@ class SeleniumLocators {
 	@Disabled
 	@Test
 	void idnameclassnamecssselector() throws InterruptedException {
-		driver.get("http://hyderabadreport.com/user");
-		Thread.sleep(5000);
+		driver.get("http://ts07.com/user");
+		Thread.sleep(25000);
 		driver.findElement(By.id("edit-name")).sendKeys("reshma");
 		Thread.sleep(2000);
 		driver.findElement(By.name("pass")).sendKeys("Hello@123");
