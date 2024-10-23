@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="Social"/>
-      </run>
-    </groups>
+  <test thread-count="5" name="Firefox Browser Test Cases(failed)">
+    <parameter name="browser" value="Firefox"/>
     <classes>
-      <class name="testngframework.TestNG_9_TestCases_Groups">
+      <class name="testngframework.TestNG_92_CrossBrowserTesting">
         <methods>
-          <include name="twitter"/>
-          <include name="gmail"/>
-          <include name="facebook"/>
+          <include name="googleSelenium"/>
+          <include name="googlesearch"/>
+          <include name="openBrowser"/>
+          <include name="googletechlearn"/>
+          <include name="googletest"/>
         </methods>
-      </class> <!-- testngframework.TestNG_9_TestCases_Groups -->
+      </class> <!-- testngframework.TestNG_92_CrossBrowserTesting -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Firefox Browser Test Cases(failed) -->
 </suite> <!-- Failed suite [Suite] -->

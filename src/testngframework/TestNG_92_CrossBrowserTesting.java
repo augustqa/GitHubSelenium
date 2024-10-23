@@ -67,6 +67,8 @@ public WebDriver driver;
         driver.get("https://www.google.com");
         Thread.sleep(2000);
         driver.findElement(By.name("q")).sendKeys("Crossbrowser Testing in Selenium"+Keys.ENTER);
+        Thread.sleep(2000);
+
      //   Thread.sleep(5000);
        
     }
@@ -76,7 +78,9 @@ public WebDriver driver;
      
         driver.get("https://www.google.com");
         Thread.sleep(2000);
-        driver.findElement(By.name("q")).sendKeys("Tirupati"+Keys.ENTER);
+        driver.findElement(By.name("q")).sendKeys("Bharath"+Keys.ENTER);
+        Thread.sleep(2000);
+
     //    Thread.sleep(5000); 
       
     }
@@ -87,6 +91,8 @@ public WebDriver driver;
         driver.get("https://www.google.com");
         Thread.sleep(2000);
         driver.findElement(By.name("q")).sendKeys("Selenium"+Keys.ENTER);
+        Thread.sleep(2000);
+
        // Thread.sleep(5000);
        
     }
@@ -97,6 +103,8 @@ public WebDriver driver;
         driver.get("https://www.google.com");
         Thread.sleep(2000);
         driver.findElement(By.name("q")).sendKeys("techlearn.in"+Keys.ENTER);
+        Thread.sleep(2000);
+
        // Thread.sleep(5000);
        
     }
