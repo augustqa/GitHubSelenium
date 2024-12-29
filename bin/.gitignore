@@ -1,1 +1,12 @@
+/junitframework/
+/launchbrowsers/
+/locators/
 /log4jframework/
+/navigationmethods/
+/newtabwindowhandles/
+/payment/
+/screenshots/
+/tabtitleurlapptext/
+/testngframework/
+/verificationprocess/
+/fileupload/

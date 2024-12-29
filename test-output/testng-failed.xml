@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngframework.TestNG_2_TCs_Exe_Priority_Order">
+      <class name="datadrivernframework.LoginValidationReports">
         <methods>
-          <include name="facebook"/>
-          <include name="beforeTest"/>
+          <include name="PrintTestResultsinSheetVarm"/>
         </methods>
-      </class> <!-- testngframework.TestNG_2_TCs_Exe_Priority_Order -->
+      </class> <!-- datadrivernframework.LoginValidationReports -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
