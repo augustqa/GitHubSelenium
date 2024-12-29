@@ -11,7 +11,7 @@ public class UploadFile {
 
 	@Test
 	public void attachfile() throws InterruptedException {
-		driver.get("https://www.gangaaram-tech.com/registration/");
+		driver.get("https://www.seleniumlearn.com/registration/");
 		Thread.sleep(55000);
 		driver.findElement(By.xpath("//textarea[@id='textarea-23104650921']")).sendKeys("Hello Text Message");
 		Thread.sleep(44000);
