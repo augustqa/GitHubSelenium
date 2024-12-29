@@ -35,7 +35,7 @@ public class HandleIframes {
 		driver.switchTo().defaultContent();
 		
 		
-		driver.switchTo().parentFrame();
+		//driver.switchTo().parentFrame();
 		
 		
  	driver.findElement(By.xpath("//a[@id='getwebsitebtn']")).click();

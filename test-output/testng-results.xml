@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-04T09:43:14 IST" name="Default suite" finished-at="2024-10-04T09:45:34 IST" duration-ms="139720">
+  <suite started-at="2024-10-23T17:36:17 IST" name="Default suite" finished-at="2024-10-23T17:36:47 IST" duration-ms="30892">
     <groups>
     </groups>
-    <test started-at="2024-10-04T09:43:14 IST" name="Default test" finished-at="2024-10-04T09:45:34 IST" duration-ms="139720">
-      <class name="datadrivernframework.LoginValidationReports">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:datadrivernframework.LoginValidationReports@4e31276e]" started-at="2024-10-04T09:43:14 IST" name="beforeTest" finished-at="2024-10-04T09:43:16 IST" duration-ms="1596" status="PASS">
+    <test started-at="2024-10-23T17:36:17 IST" name="Default test" finished-at="2024-10-23T17:36:47 IST" duration-ms="30892">
+      <class name="iframesinselenium.HandleIframes">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:iframesinselenium.HandleIframes@4b7dc788]" started-at="2024-10-23T17:36:17 IST" name="beforeTest" finished-at="2024-10-23T17:36:18 IST" duration-ms="1757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="PrintTestResultsinSheetVarm()[pri:0, instance:datadrivernframework.LoginValidationReports@4e31276e]" started-at="2024-10-04T09:43:16 IST" name="PrintTestResultsinSheetVarm" finished-at="2024-10-04T09:45:34 IST" duration-ms="138082" status="PASS">
+        <test-method signature="frames()[pri:0, instance:iframesinselenium.HandleIframes@4b7dc788]" started-at="2024-10-23T17:36:18 IST" name="frames" finished-at="2024-10-23T17:36:47 IST" duration-ms="29080" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PrintTestResultsinSheetVarm -->
-      </class> <!-- datadrivernframework.LoginValidationReports -->
+        </test-method> <!-- frames -->
+      </class> <!-- iframesinselenium.HandleIframes -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
