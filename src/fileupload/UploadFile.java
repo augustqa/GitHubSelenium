@@ -12,9 +12,9 @@ public class UploadFile {
 	@Test
 	public void attachfile() throws InterruptedException {
 		driver.get("https://www.seleniumlearn.com/registration/");
-		Thread.sleep(55000);
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//textarea[@id='textarea-23104650921']")).sendKeys("Hello Text Message");
-		Thread.sleep(44000);
+		Thread.sleep(4000);
 		driver.findElement(By.xpath("//*[@id=\"field-ioa3T81OSsEXwhP\"]")).sendKeys("C:\\Users\\kpuru\\OneDrive\\Documents\\Book2.xlsx");
 		driver.findElement(By.xpath("ABC")).click();
 		}
